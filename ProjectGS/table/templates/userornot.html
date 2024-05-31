@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='userornot.css') }}">
+    <title> The Grocery Store </title>
+</head>
+<body>
+    <h2>
+        THE GROCERY STORE
+    </h2>
+    <div class="pane">
+        <h2 class="logg">
+            LOG IN AS
+        </h2>
+        <div class="choose">
+            <form action="/login" method="post">
+                <button class="choice" id="user">
+                    USER
+                </button>
+            </form>
+            <form action="/loginhtml" method="post">
+                <button class="choice">
+                    ADMIN
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

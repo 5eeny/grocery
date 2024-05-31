@@ -1,0 +1,86 @@
+body{
+    background-image:url("bg.png");
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+h2{
+    color: white;
+}
+
+.logorreg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.creds {
+    background-color: white;
+    font-size: x-large;
+    padding: 50px;
+    border-radius: 1em;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logger {
+    padding: 10px 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 400px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#regis{
+    margin-left: 10px;
+}
+
+#pword{
+    margin-bottom: 40px;
+}
+
+.logger:hover{
+    color: white;
+    border-color: black;
+    background-color: darkslategrey;
+    cursor: pointer;
+}
+
+.logger:active{
+    color: white;
+    border-color: black;
+    background-color: black;
+    cursor: pointer;
+}
+
+.entry{
+    border-radius: 400px;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: medium;
+    transition: 0.2s;
+}
+
+.entry:hover{
+    border-style: solid;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.entry:focus{
+    border-style: solid;
+    background-color: black;
+    color: white;
+}

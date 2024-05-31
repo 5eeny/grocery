@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Foody Boozo</h1>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>foody</th>
+            <th>category</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for some in some_data}
+        <tr>
+            <td> {{some["id"] }}</td>
+            <td> {{some["foody"] }}</td>
+            <td> {{some["category"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</body>
+</html>
